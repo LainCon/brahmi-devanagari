@@ -20,6 +20,26 @@ h1{
     color: rgb(235, 160, 21);
 }
 
+.banner{
+    width: 100%;
+}
+
+.banner img{
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.banner figcaption{
+    color: rgb(238, 162, 21);
+    text-align: center;
+    margin: 0.3vh;
+    text-shadow: 0 0 2px rgb(218, 154, 94);
+
+}
+
 .main{
     display: flex;
     flex-wrap: wrap;
@@ -39,7 +59,7 @@ h1{
     flex-basis: 100%;
     border-radius: 5px;
     padding: 1.3vh;
-    box-shadow: 0 0 5px rgb(129, 119, 119), inset 2px 2px 15px rgb(90, 77, 77);
+    box-shadow: 0 0 5px rgb(129, 119, 119), inset 2px 2px 5px rgb(90, 77, 77);
     font-size: 1.3rem;
     color: rgb(189, 135, 36)
 }
