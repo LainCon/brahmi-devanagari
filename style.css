@@ -80,3 +80,9 @@ h1{
     color: rgb(88, 65, 29);
     box-shadow: inset 2px 3px  rgb(150, 106, 41);
 }
+
+.gitUrl{
+    position: absolute;
+    top:0;
+    right:0;
+}
