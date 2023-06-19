@@ -81,6 +81,15 @@ h1{
     box-shadow: inset 2px 3px  rgb(150, 106, 41);
 }
 
+.main div .copyBtn{
+    background-color: darkgrey;
+    box-shadow: inset -2px -3px grey ;
+}
+
+.main div .copyBtn:active{
+    box-shadow: inset 2px 3px grey ;
+}
+
 .gitUrl{
     position: absolute;
     top:0;
