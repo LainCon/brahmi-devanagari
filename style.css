@@ -9,35 +9,26 @@
 
 head, body{
     height: 100%;
-    background-color: rgb(31, 28, 28);
+    background-color: rgb(51, 47, 47);
     /* background-image: linear-gradient(to right, rgb(230, 186, 105), rgb(230, 230, 170)); */
 }
 
+header{
+    border: 3px solid rgb(114, 80, 35);
+    border-style:ridge;
+    background-color: orange;
+    background-image: url('./media/flower-pix.gif'), url('./media/flower-pix.gif');
+    background-position: left, right;
+    background-repeat: no-repeat;
+    background-blend-mode: luminosity;
+    /* box-shadow: 2px 2px 0 rgb(177, 131, 71); */
+}
+
 h1{
-    margin-top: 3.5vh;
-    margin-bottom: 3.5vh;
+    padding: 1.1vh;
+    font-size: 1.3rem;
     text-align: center;
-    color: rgb(235, 160, 21);
-}
-
-.banner{
-    width: 100%;
-}
-
-.banner img{
-    width: 100%;
-    max-width: 550px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-
-.banner figcaption{
-    color: rgb(238, 162, 21);
-    text-align: center;
-    margin: 0.3vh;
-    text-shadow: 0 0 2px rgb(218, 154, 94);
-
+    color: rgb(146, 89, 52);
 }
 
 .main{
@@ -59,9 +50,20 @@ h1{
     flex-basis: 100%;
     border-radius: 5px;
     padding: 1.3vh;
-    box-shadow: 0 0 5px rgb(129, 119, 119), inset 2px 2px 5px rgb(90, 77, 77);
+    background-color: rgb(37, 34, 34);
+    box-shadow: 0 3px 5px rgb(32, 31, 31), inset 2px 2px 8px rgb(39, 36, 36);
     font-size: 1.3rem;
     color: rgb(189, 135, 36)
+}
+
+.devContainer textarea{
+    color: lightskyblue;
+    font-weight: lighter;
+}
+
+.brahmiContainer textarea{
+    color: rgb(253, 182, 255);
+    font-weight: lighter;
 }
 
 
